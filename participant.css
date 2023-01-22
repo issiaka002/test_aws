@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	background-color: #383838;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+}
+p.msg{
+	color: red;
+	font-style: italic;
+	margin-top: 1rem;
+	text-align: center;
+	/*margin-left: 1.2rem;*/
+}
+a img#logo{
+	width: 2.8rem;
+	height: auto;
+	position: absolute;
+	border-radius: 50%;
+}
+.logo{
+	margin-bottom: 1.2rem;
+}
+.navbar{
+	background-color: #212121;
+	width: 100%;
+	height: 4rem;
+}
+.navbar nav ul{
+	display: flex;
+}
+.navbar nav ul li{
+	list-style: none;
+	justify-content: start;
+	margin-top: 1.7rem;	
+	margin-left: 1.7rem;
+	cursor: pointer;
+}
+.navbar nav ul li a{
+	font-weight: bold;
+	color: #FFFDFB;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.container form{
+	width: 40%;
+	color: #FFFDFB;
+	padding: 2rem;
+	background-color: #000;
+	border-radius: 0.7rem;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	border-bottom: 3px solid white;
+
+}
+.container form .content label{
+	font-size: 1.6rem;
+	line-height: 4.5rem;
+	font-weight: bold;
+}
+.content{
+	margin-top: 4rem;
+	margin-left:3.5rem ;
+}
+.container form .content input{
+	border-radius: 0.6rem;
+	border:0.1rem solid wheat;
+	padding: 0.5rem 2.5rem;
+	color: white;
+	background-color:#212121; 
+
+}
+.container form .content input[type="submit"]{
+	background-color: #E8B4FF;
+	padding: 0.2rem 1.5rem;
+	font-weight: bold;
+	border: none;
+	margin-top: 2rem;
+
+}
+.container form .content input[type="submit"]:hover{
+	background-color: #7274F5;
+}
+::placeholder{
+	font-style: italic;
+	color: gray;
+	font-weight: 100;
+
+}
+
+.container{
+	display: flex;
+	margin-top: 1.8rem;
+	height: 87vh;
+	margin-left: 8.2rem;
+}
+.img img{
+	height: 87vh;
+	margin-left: 4rem;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	border-top: 3px solid white;
+	border-top-right-radius: 0.7rem solid white;
+	border-top-left-radius: 0.7rem solid white;
+}
+/*.img img{
+	width: 65%;
+
+}*/
+
+

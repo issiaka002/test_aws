@@ -1,0 +1,50 @@
+ul.list{
+	margin-top: 5rem;
+	margin-right: 0;
+	display: block;
+}
+main{
+	display: flex;
+}
+ul .agent{
+	background-color: #242424;
+	border-radius: 0.4rem;
+	height: 4.1rem;
+	width: 100%;
+	font-size: 1.6rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	align-items: center;
+	margin-left: 3rem;
+	margin-bottom: 0.8rem;
+	opacity: 0.8;
+	transition: 0.3s all ease;
+	margin-right: 0;
+
+}
+ul .agent:hover{
+	background-color: #000;
+	opacity: 1;
+	transform: translateX(0.5rem);
+
+}
+div.list{
+	width: 40%;
+}
+ul .agent img{
+	width: 2.8rem;
+	height: auto;
+	border-radius: 50%;
+}
+.imgg img{
+	margin-top: 4rem;
+	width: 50rem;
+	height: 44rem;
+	margin-left: 5rem;
+
+}
+.imgg{
+	border-right: 3px solid white;
+}
