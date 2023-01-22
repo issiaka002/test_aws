@@ -16,7 +16,7 @@
 		<nav>
 			<ul>
 				<li class="logo"><a  href="participant.php"><img id="logo" src="image/avatar_homme.jpg" alt="logo"></a></li>
-				<li><a href="participant.php">Ajouter un participant</a></li>
+				<li><a href="index.php">Ajouter un participant</a></li>
 				<li><a href="ListParticipant.php">Liste des participant</a></li>
 			</ul>
 		</nav>
